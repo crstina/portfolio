@@ -1,0 +1,22 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+h3 {
+  color: #006666;
+}
+body {
+  background-color: #99ccff;
+  text-align: center;
+}
+#about-me-list {
+  padding: 10px 50px 20px;
+  list-stle: square;
+}
+img {
+  filter: sepia(1);
+}
+.section-header {
+  text-decoration: green wavy underline;
+}
+</style>
