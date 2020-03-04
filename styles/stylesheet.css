@@ -2,8 +2,22 @@
 * {
   box-sizing: border-box;
 }
+h1 {
+  font-family: Garamond, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #000066;
+}
+h2 {
+  font-family: Palatino, sans-serif;
+  color: black;
+}
 h3 {
   color: #006666;
+  font-family: Roboto, sans-serif;
+}
+p {
+  font-family: Candara, sans-serif;
 }
 body {
   background-color: #99ccff;
@@ -11,12 +25,30 @@ body {
 }
 #about-me-list {
   padding: 10px 50px 20px;
-  list-stle: square;
+  list-style: square;
+  list-style-position: inside;
+  text-align: center;
 }
 img {
   filter: sepia(1);
+  border-style: solid;
+  border-width: 5px;
 }
 .section-header {
-  text-decoration: green wavy underline;
+  text-decoration: green wavy overline;
+}
+.left-article {
+  text-align: left;
+}
+.center-article {
+  text-align: center;
+}
+.right-article {
+  text-align: right;
+}
+.shadow-box-section {
+  box-shadow: 60px -16px gray;
+  border-style: solid;
+  border-width: 5px;
 }
 </style>
