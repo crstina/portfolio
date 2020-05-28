@@ -1,7 +1,7 @@
-<style>
 * {
   box-sizing: border-box;
 }
+
 h1 {
   font-family: Garamond, sans-serif;
   border: 2px solid black;
@@ -34,21 +34,20 @@ img {
   border-style: solid;
   border-width: 5px;
 }
+.project-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-box {
+  display: flex;
+  flex-direction: column;
+}
 .section-header {
   text-decoration: green wavy overline;
-}
-.left-article {
-  text-align: left;
-}
-.center-article {
-  text-align: center;
-}
-.right-article {
-  text-align: right;
 }
 .shadow-box-section {
   box-shadow: 60px -16px gray;
   border-style: solid;
   border-width: 5px;
 }
-</style>
