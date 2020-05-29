@@ -3,18 +3,14 @@
 }
 
 h1 {
-  font-family: Garamond, sans-serif;
-  border: 2px solid black;
-  border-radius: 5px;
-  color: #000066;
+  font-family: 'Shadows Into Light', cursive;
 }
 h2 {
-  font-family: Palatino, sans-serif;
-  color: black;
+  font-family: 'Shadows Into Light', cursive;
 }
 h3 {
   color: #006666;
-  font-family: Roboto, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 p {
   font-family: Candara, sans-serif;
@@ -24,7 +20,7 @@ body {
   text-align: center;
 }
 #about-me-list {
-  padding: 10px 50px 20px;
+  padding: 1rem 5rem 2rem;
   list-style: square;
   list-style-position: inside;
   text-align: center;
