@@ -19,6 +19,14 @@ body {
   background-color: #99ccff;
   text-align: center;
 }
+a {
+  transition: all 1s ease-out;
+}
+a:hover,
+a:focus {
+  color: #333;
+  background-color: #fff;
+}
 #about-me-list {
   padding: 1rem 5rem 2rem;
   list-style: square;
@@ -29,6 +37,15 @@ img {
   filter: sepia(1);
   border-style: solid;
   border-width: 5px;
+}
+img:hover{
+  filter: none;
+}
+h1:hover {
+  font-size: 36px;
+  transition-property: font-size;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
 }
 .project-section {
   display: flex;
