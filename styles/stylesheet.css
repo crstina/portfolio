@@ -53,12 +53,10 @@ button, input, select, textarea, label {
   box-sizing: border-box;
   display: block;
   margin: 1rem;
-
 }
-input, textarea, select, {
+input, textarea, {
   width: 300px;
   margin: 0;
-  box-sizing: border-box;
 }
 input[type=radio] {
   display: inline;
