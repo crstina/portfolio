@@ -9,7 +9,7 @@ h2 {
   font-family: 'Shadows Into Light', cursive;
 }
 h3 {
-  color: #006666;
+  color: #2B2B2B;
   font-family: 'Playfair Display', serif;
 }
 p {
@@ -54,7 +54,7 @@ button, input, select, textarea, label {
   display: block;
   margin: 1rem;
 }
-input, textarea, {
+input, textarea {
   width: 300px;
   margin: 0;
 }
